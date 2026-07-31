@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Arbeiten — aeroquads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a href="index.html" class="logo">aeroquads</a>
+    <nav class="nav-links">
+      <a href="index.html">Startseite</a>
+      <a href="aircraft.html">Flotte</a>
+      <a href="services.html">Leistungen</a>
+      <a href="work.html" class="active">Arbeiten</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Kontakt</a>
+    </nav>
+    <div class="nav-social">
+      <a class="icon-btn" href="https://www.instagram.com/aeroquads/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a class="icon-btn" href="https://youtube.com/channel/UC-ukxXN-jF7cWX2qO4B5uZw" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <div class="lang-switch">
+        <a href="../en/work.html">EN</a><span>/</span><a href="../de/work.html" class="active">DE</a>
+      </div>
+      <button class="burger" id="burgerBtn" aria-label="Menü öffnen"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="wrap mobile-nav" id="mobileNav">
+    <a href="index.html">Startseite</a>
+    <a href="aircraft.html">Flotte</a>
+    <a href="services.html">Leistungen</a>
+    <a href="work.html">Arbeiten</a>
+    <a href="team.html">Team</a>
+    <a href="contact.html">Kontakt</a>
+    <div class="lang-switch-mobile"><a href="../en/work.html">English</a><span>/</span><a href="../de/work.html" class="active">Deutsch</a></div>
+</nav>
+</header>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="eyebrow">Ausgewählte Projekte</div>
+    <h1>Arbeiten</h1>
+    <p style="max-width: none; width: 100%;">Ein Auszug, was wir bereits gefilmt haben. Klicke auf ein Projekt, um das Video zu öffnen.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="work-filter">
+      <button class="filter-btn active" data-filter="all">Alle</button>
+      <button class="filter-btn" data-filter="Commercial / Film / TV">Commercial / Film / TV</button>
+      <button class="filter-btn" data-filter="Indoor / One-Shots">Indoor / One-Shots</button>
+      <button class="filter-btn" data-filter="Custom">Custom</button>
+    </div>
+    <div class="work-grid" id="workGrid"><!-- JS füllt die Projekte --></div>
+  </div>
+</section>
+
+<div class="modal" id="workModal">
+  <div class="modal-inner">
+    <div class="modal-head">
+      <h3 id="modalTitle">Project Title</h3>
+      <button class="modal-close" id="modalClose" aria-label="Schließen">×</button>
+    </div>
+    <div class="modal-media" id="modalMedia"></div>
+  </div>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="index.html" class="logo">aeroquads</a>
+      <div class="footer-contact">
+        <a href="tel:+41774491009">+41 77 449 10 09</a>
+        <a href="mailto:contact@aeroquads.ch">contact@aeroquads.ch</a>
+      </div>
+      <div class="footer-social">
+        <a class="icon-btn" href="https://www.instagram.com/aeroquads/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a class="icon-btn" href="https://youtube.com/channel/UC-ukxXN-jF7cWX2qO4B5uZw" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span id="year"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
