@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aeroquads — Aerial Cinematography</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+
+<header id="siteHeader">
+  <div class="wrap nav">
+    <a href="index.html" class="logo">aeroquads</a>
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="aircraft.html">Aircraft</a>
+      <a href="services.html">Services</a>
+      <a href="work.html">Work</a>
+      <a href="team.html">Team</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="nav-social">
+      <a class="icon-btn" href="https://www.instagram.com/aeroquads/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+      </a>
+      <a class="icon-btn" href="https://youtube.com/channel/UC-ukxXN-jF7cWX2qO4B5uZw" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+      </a>
+      <div class="lang-switch">
+        <a href="../en/index.html" class="active">EN</a><span>/</span><a href="../de/index.html">DE</a>
+      </div>
+      <button class="burger" id="burgerBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+    </div>
+  </div>
+  <nav class="wrap mobile-nav" id="mobileNav">
+    <a href="index.html">Home</a>
+    <a href="aircraft.html">Aircraft</a>
+    <a href="services.html">Services</a>
+    <a href="work.html">Work</a>
+    <a href="team.html">Team</a>
+    <a href="contact.html">Contact</a>
+    <div class="lang-switch-mobile"><a href="../en/index.html" class="active">English</a><span>/</span><a href="../de/index.html">Deutsch</a></div>
+</nav>
+</header>
+
+<!-- ===================== HERO ===================== -->
+<section class="hero" style="position: relative; overflow: hidden;">
+  <video 
+    autoplay 
+    muted 
+    loop 
+    playsinline 
+    poster="../media/index/coming_soon.jpg" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: 1;"
+  >
+    <source src="../media/index/test_video.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div style="position: absolute; inset: 0; background: rgba(0, 0, 0, 0.45); z-index: 2;"></div>
+
+  <div class="wrap hero-content" style="position: relative; z-index: 3;">
+    <div class="eyebrow">Aerial Cinematography · BAZL & EASA Licensed</div>
+    <h1>Drone Filming for Film, TV &amp; Live Broadcast</h1>
+    <p>We fly cinema-grade drones for commercials, broadcast and brand films. One call books the aircraft, the pilot and the shot.</p>
+    <div class="hero-cta">
+      <a href="work.html" class="btn btn-solid">View Our Work</a>
+      <a href="contact.html" class="btn btn-outline">Get In Touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- 70px spacing top/bottom with a section line matching the rest of the site -->
+<!--div style="margin: 35px 0; border-top: 1px solid var(--line);"></div>-->
+
+<!-- ===================== INTRO ===================== -->
+<section>
+  <div class="wrap intro">
+    <div>
+      <div class="eyebrow">Who We Are</div>
+      <h2 style="font-size:clamp(28px,3.6vw,44px);">Expert Drone Filming, Built For Production</h2>
+      <div class="intro-stats">
+        <div class="stat"><b>10+</b><span>Projects Delivered</span></div>
+        <div class="stat"><b>15</b><span>Aircraft In Fleet</span></div>
+        <div class="stat"><b>5</b><span>Years In The Air</span></div>
+        <div class="stat"><b>2</b><span>Excellent Pilots</span></div>
+      </div>
+    </div>
+    <div>
+      <p>Using drones for filming has changed how films, commercials and television get made.<br>We capture aerial footage that enhances the viewer's experience and creates visuals that would otherwise be impossible to get with traditional camera equipment.</p>
+      <p style="margin-top:18px;">Our trained pilots and camera operators work with the creative minds behind every production — from a single commercial spot to a full live broadcast package. <br>Every flight is planned, insured and executed to the highest safety standard.</p>
+      <a href="team.html" class="btn btn-outline" style="margin-top:28px;">Meet The Team</a>
+    </div>
+  </div>
+
+  <div style="margin: 50px 0;"></div>
+
+  <div class="hero-strip">
+  <!-- BTS Photo 1 -->
+  <div class="hero-strip-item" style="aspect-ratio: 4/3; overflow: hidden; position: relative;">
+    <img 
+      src="../media/index/bts_derendinger_2.jpeg" "
+      alt="Behind the scenes drone setup" 
+      style="width: 100%; height: 100%; object-fit: cover; object-position: 100% 62%; display: block;"
+    >
+  </div>
+
+  <!-- BTS Photo 2 -->
+  <div class="hero-strip-item" style="aspect-ratio: 4/3; overflow: hidden; position: relative;">
+    <img 
+      src="../media/index/bts_auto_zürich.jpeg" 
+      alt="FPV drone in action on set" 
+      style="width: 100%; height: 100%; object-fit: cover; object-position: 100% 52%; display: block;"
+    >
+  </div>
+
+  <!-- BTS Photo 3 -->
+  <div class="hero-strip-item" style="aspect-ratio: 4/3; overflow: hidden; position: relative;">
+    <img 
+      src="../media/index/bts_opel.jpeg" 
+      alt="Piloting team during production" 
+      style="width: 100%; height: 100%; object-fit: cover; object-position: 100% 50%; display: block;"
+    >
+  </div>
+
+  <!-- BTS Photo 4 -->
+  <div class="hero-strip-item" style="aspect-ratio: 4/3; overflow: hidden; position: relative;">
+    <img 
+      src="../media/index/bts_tfbern.jpeg" 
+      alt="FPV rig and gear display" 
+      style="width: 100%; height: 100%; object-fit: cover; object-position: 100% 65%; display: block;"
+    >
+  </div>
+</div>
+</section>
+
+<!-- ===================== FEATURED WORK ===================== -->
+<section class="tight" style="border-top:1px solid var(--line);">
+  <div class="wrap">
+    <div class="section-head" style="display:flex; justify-content:space-between; align-items:flex-end; flex-wrap:wrap; gap:20px; margin-bottom:44px;">
+      <div>
+        <div class="eyebrow">Selected Projects</div>
+        <h2 style="font-size:clamp(28px,3.6vw,44px);">Featured Drone Work</h2>
+      </div>
+      <a href="work.html" class="btn btn-outline">See All Work</a>
+    </div>
+
+    <div class="work-preview-grid">
+      
+      <!-- Video Item 1 -->
+      <div class="video-card" style="aspect-ratio: 16/9; position: relative; overflow: hidden; background: #000; border-radius: 8px; cursor: pointer;">
+        <video 
+          playsinline 
+          preload="metadata" 
+          poster="../media/index/coming_soon.jpg" 
+          style="width: 100%; height: 100%; object-fit: cover; display: block;"
+          onclick="toggleVideo(this)"
+          onplay="this.setAttribute('controls', 'controls'); this.parentElement.querySelector('.play-overlay').style.opacity = '0';"
+          onpause="if(!this.seeking){ this.removeAttribute('controls'); this.parentElement.querySelector('.play-overlay').style.opacity = '1'; }"
+        >
+          <source src="../media/index/test_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+        <!-- Play Button Overlay -->
+        <div class="play-overlay" onclick="toggleVideo(this.previousElementSibling)" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, 0.3); transition: opacity 0.3s ease; pointer-events: none;">
+          <div style="width: 64px; height: 64px; border-radius: 50%; background: rgba(255, 255, 255, 0.25); backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+            <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 16px solid #ffffff; margin-left: 4px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Item 2 -->
+      <div class="video-card" style="aspect-ratio: 16/9; position: relative; overflow: hidden; background: #000; border-radius: 8px; cursor: pointer;">
+        <video 
+          playsinline 
+          preload="metadata" 
+          poster="../media/index/coming_soon.jpg" 
+          style="width: 100%; height: 100%; object-fit: cover; display: block;"
+          onclick="toggleVideo(this)"
+          onplay="this.setAttribute('controls', 'controls'); this.parentElement.querySelector('.play-overlay').style.opacity = '0';"
+          onpause="if(!this.seeking){ this.removeAttribute('controls'); this.parentElement.querySelector('.play-overlay').style.opacity = '1'; }"
+        >
+          <source src="../media/index/test_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+        <!-- Play Button Overlay -->
+        <div class="play-overlay" onclick="toggleVideo(this.previousElementSibling)" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, 0.3); transition: opacity 0.3s ease; pointer-events: none;">
+          <div style="width: 64px; height: 64px; border-radius: 50%; background: rgba(255, 255, 255, 0.25); backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+            <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 16px solid #ffffff; margin-left: 4px;"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Video Item 3 -->
+      <div class="video-card" style="aspect-ratio: 16/9; position: relative; overflow: hidden; background: #000; border-radius: 8px; cursor: pointer;">
+        <video 
+          playsinline 
+          preload="metadata" 
+          poster="../media/index/coming_soon.jpg" 
+          style="width: 100%; height: 100%; object-fit: cover; display: block;"
+          onclick="toggleVideo(this)"
+          onplay="this.setAttribute('controls', 'controls'); this.parentElement.querySelector('.play-overlay').style.opacity = '0';"
+          onpause="if(!this.seeking){ this.removeAttribute('controls'); this.parentElement.querySelector('.play-overlay').style.opacity = '1'; }"
+        >
+          <source src="../media/index/test_video.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        
+        <!-- Play Button Overlay -->
+        <div class="play-overlay" onclick="toggleVideo(this.previousElementSibling)" style="position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; background: rgba(0, 0, 0, 0.3); transition: opacity 0.3s ease; pointer-events: none;">
+          <div style="width: 64px; height: 64px; border-radius: 50%; background: rgba(255, 255, 255, 0.25); backdrop-filter: blur(8px); display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
+            <div style="width: 0; height: 0; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-left: 16px solid #ffffff; margin-left: 4px;"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<script>
+  function toggleVideo(videoEl) {
+    if (videoEl.paused) {
+      videoEl.play();
+    } else {
+      videoEl.pause();
+    }
+  }
+</script>
+
+<!-- ===================== CLIENTS ===================== -->
+<section class="tight" style="border-top:1px solid var(--line);">
+  <div class="wrap">
+    <div class="eyebrow" style="color:#F0B4AA;">Trusted By</div>
+    <h2 style="font-size:clamp(26px,3vw,38px); margin-bottom:36px;">Our Clients</h2>
+    
+    <div style="display:grid; grid-template-columns:repeat(6,1fr); gap:1px; background:var(--line-dark);">
+      <!-- Replace src with your image path or URL -->
+      <div class="logo-item" style="aspect-ratio:2/1; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px;">
+        <img src="../media/index/clients_cinerec_logo.png" alt="Cinerec" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+
+      <div class="logo-item" style="aspect-ratio:2/1; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px;">
+        <img src="../media/index/clients_opel.jpg" alt="Opel" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+
+      <div class="logo-item" style="aspect-ratio:2/1; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px;">
+        <img src="../media/index/clients_tfbern.png" alt="TF Bern" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+
+      <div class="logo-item" style="aspect-ratio:2/1; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px;">
+        <img src="../media/index/clients_derendinger.png" alt="Derendinger" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+
+      <div class="logo-item" style="aspect-ratio:2/1; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px;">
+        <img src="../media/index/clients_laserteam.jpg" alt="LaserTeam" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+
+      <div class="logo-item" style="aspect-ratio:2/1; background: #ffffff; display: flex; align-items: center; justify-content: center; padding: 16px;">
+        <img src="../media/index/clients_melgar.png" alt="Melgar" style="max-width: 100%; max-height: 100%; object-fit: contain;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="footer-top">
+      <a href="index.html" class="logo">aeroquads</a>
+      <div class="footer-contact">
+        <a href="tel:+41774491009">+41 77 449 10 09</a>
+        <a href="mailto:contact@aeroquads.ch">contact@aeroquads.ch</a>
+      </div>
+      <div class="footer-social">
+        <a class="icon-btn" href="https://www.instagram.com/aeroquads/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg>
+        </a>
+        <a class="icon-btn" href="https://youtube.com/channel/UC-ukxXN-jF7cWX2qO4B5uZw" target="_blank" rel="noopener" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2.5" y="5.5" width="19" height="13" rx="4"/><path d="M10.5 9.5l5 2.5-5 2.5z" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span id="year"></span>
+    </div>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
