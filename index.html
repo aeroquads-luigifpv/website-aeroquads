@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>aeroquads</title>
+<!-- Fallback, falls JavaScript deaktiviert ist: leitet nach 0s auf Englisch weiter -->
+<noscript><meta http-equiv="refresh" content="0; url=en/index.html"></noscript>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<style>
+  body{display:flex; align-items:center; justify-content:center; min-height:100vh;}
+  .lp{text-align:center;}
+  .lp .logo{font-size:26px; display:block; margin-bottom:40px;}
+  .lp-choice{display:flex; gap:16px; justify-content:center; flex-wrap:wrap;}
+</style>
+</head>
+<body>
+  <div class="lp">
+    <span class="logo">aeroquads</span>
+    <div class="lp-choice">
+      <a href="en/index.html" class="btn btn-solid">English</a>
+      <a href="de/index.html" class="btn btn-outline">Deutsch</a>
+    </div>
+  </div>
+
+  <script>
+    /* Automatische Weiterleitung nach Browsersprache.
+       HINWEIS: In WIX wird diese Datei normalerweise nicht gebraucht — dort legst du
+       für /en/ und /de/ eigene WIX-Seiten an. Für die Vorschau hier ist es praktisch. */
+    var lang = (navigator.language || navigator.userLanguage || 'en').toLowerCase();
+    if (lang.indexOf('de') === 0) {
+      window.location.replace('de/index.html');
+    } else {
+      window.location.replace('en/index.html');
+    }
+  </script>
+</body>
+</html>
